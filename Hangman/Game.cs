@@ -95,7 +95,8 @@ namespace Hangman
             }
             else
             {
-                Console.WriteLine("It seems that you lost. You guessed only {0}. The actual word was {1}.", displayedWord, pickedWord);
+                Console.WriteLine("It seems that you lost. You are dead, dude." +
+                    "You guessed only {0}. The actual word was {1}.", displayedWord, pickedWord);
             }
             Console.ResetColor();
         }
